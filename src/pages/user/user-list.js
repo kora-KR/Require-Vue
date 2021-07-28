@@ -22,9 +22,11 @@ define([
 		},
 		created() {
 			this.name = this.$store.state.login.username
-			// Axios Api
-			http.post('/query').then(res => {
-				this.errors = res.data.errors
+			var params = {
+				name: 'kora', age: 100
+			}
+			http({ serviceCode: 'SSO0015', ...params }).then(res => {
+				console.log(res, '接口封装')
 			})
 		},
 		methods: {

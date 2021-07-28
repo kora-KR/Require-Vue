@@ -2,7 +2,7 @@
 
 > 基于 requireJS 的 vue 基础项目包，内置如下功能：
 
-1. VUE 全家桶(路由守卫、iviewUI、axios、vuex)、
+1. VUE 全家桶(路由守卫、iviewUI、axios、vuex)
 2. 路由嵌套、组件嵌套、隐式路由
 3. 敏捷开发 require 插件(css、less、js)
 
@@ -29,6 +29,8 @@
     2. vueRouter
 
     3. iview [传送门](https://www.iviewui.com/)
+
+    4. axios
 
 ## 路由页面创建流程
 
